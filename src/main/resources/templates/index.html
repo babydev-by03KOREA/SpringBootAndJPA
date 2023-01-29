@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>href</title>
+</head>
+<body>
+<h1>Thymeleaf 링크처리</h1>
+<div>
+    <a th:href="@{/thymeleaf/item}">아이템 페이지 이동 →</a>
+</div>
+<div>
+    <a th:href="@{/thymeleaf/itemList}">아이템　리스트 페이지 이동 →</a>
+</div>
+<div>
+    <a th:href="@{/thymeleaf/link(param1 = '파라미터 데이터 1', param2 = '파라미터 데이터 2')}">파라미터 전달</a>
+</div>
+<div>
+    <a th:href="@{/thymeleaf/layout}">jsp:include > thymeleaf</a>
+</div>
+</body>
+</html>

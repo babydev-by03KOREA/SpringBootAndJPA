@@ -1,7 +1,6 @@
 package com.start.mavenbook.Controller;
 
 import com.start.mavenbook.DTO.ItemDTO;
-import com.start.mavenbook.Entity.Item;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
